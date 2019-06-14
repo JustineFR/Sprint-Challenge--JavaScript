@@ -20,7 +20,6 @@ function CuboidMaker(attrs) {
 
 CuboidMaker.prototype.volume = function() {
   console.log("The volume is " + this.length * this.width * this.height);
-  return
 }
 
 
