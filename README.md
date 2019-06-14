@@ -30,13 +30,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.map returns a new array of elements.
+
+
 2. What is the difference between a function and a method?
+
+A method is a function inside an object.
+
 
 3. What is closure?
 
+closure has to do with global and local scope: Where is my data available in the program, in the global scope (available everywhere) or in the local scope (only available inside a function).
+
+
 4. Describe the four rules of the 'this' keyword.
 
+- Global Binding : "this" is in the global scope
+- Implicit binding: When the function is called preceding by a dot, the 'this' keyword refers to the word on the left side of the dot.
+- New binding: this refers to the object inside a construcor method
+- Expliciti binding: when "this" is explicitly defined.
+
 5. Why do we need super() in an extended class?
+
+The super() keyword is used to access and call functions on an object's parent.
+
+
 
 ## Project Set up
 
