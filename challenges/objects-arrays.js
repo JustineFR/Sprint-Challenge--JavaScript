@@ -102,6 +102,8 @@ console.log(contactInfo);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
 const uni = [];
+
+
 for (let i = 0; i < graduates.length; i++) {
   if (graduates[i].university.indexOf('Uni')) {
     uni.push(graduates[i].university)
@@ -110,6 +112,7 @@ for (let i = 0; i < graduates.length; i++) {
 
 
 console.log(uni);
+
 
 
 // ==== ADVANCED Array Methods ====
@@ -155,9 +158,9 @@ const lowerCase = [];
 zooAnimals.map(function(element) {
   element.animal_name;
   lowerCase.push(element.animal_name);
-  
+  lowerCase.toLowerCase();
 });
-// console.log(lowerCase.toLowerCase()); 
+console.log(lowerCase); 
 
 /* Request 3: .filter() 
 
